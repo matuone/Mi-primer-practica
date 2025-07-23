@@ -91,3 +91,19 @@ h3 {
   color: #a1a3b0;
   text-decoration: line-through;
 }
+
+img {
+  width: 50%;
+  object-fit: cover;
+  display: block;
+
+
+}
+
+.perfume {
+  display: flex;
+  border-radius: 12px;
+  overflow: hidden;
+  max-width: 700px;
+
+}
