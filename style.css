@@ -5,6 +5,9 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
+  border-radius: 8px;
+  border: none;
+
 }
 
 .titulo {
@@ -17,6 +20,8 @@ body {
 
 .titulo {
   color: #a1a3b0;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 h1,
@@ -33,6 +38,13 @@ h3 {
 
 .descripcion {
   color: #a1a3b0;
+  font-family: serif;
+  font-size: 16px;
+  max-width: 250px;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  font-weight: bold;
+
 
 }
 
@@ -48,5 +60,21 @@ h3 {
 
 .todo {
   background-color: white;
+  padding: 24px;
+  border-radius: 12px;
+
+}
+
+.boton {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: #3c8067;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
 
 }
