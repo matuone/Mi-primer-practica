@@ -32,6 +32,7 @@ h3 {
   max-width: 250px;
   line-height: 1.2;
   margin: 0;
+  margin-left: 0;
 
 
 }
@@ -54,14 +55,20 @@ h3 {
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-  font-weight: 700;
-
+  font-weight: 1000;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  font-size: 20px
 }
 
 .todo {
   background-color: white;
   padding: 24px;
   border-radius: 12px;
+  max-width: 340px;
+  margin: 40px auto;
+
 
 }
 
@@ -76,5 +83,11 @@ h3 {
   padding: 12px 20px;
   border-radius: 8px;
   cursor: pointer;
+  width: 100%;
 
+}
+
+.anterior {
+  color: #a1a3b0;
+  text-decoration: line-through;
 }
