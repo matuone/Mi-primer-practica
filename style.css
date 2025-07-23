@@ -1,0 +1,11 @@
+body {
+  background-color: #f3eae3;
+}
+
+.titulo {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  letter-spacing: 2px
+}
