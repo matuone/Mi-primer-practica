@@ -1,5 +1,10 @@
 body {
   background-color: #f3eae3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
 .titulo {
@@ -14,8 +19,15 @@ body {
   color: #a1a3b0;
 }
 
-h1 {
+h1,
+h2,
+h3 {
   font-family: serif;
+  font-size: 28px;
+  max-width: 250px;
+  line-height: 1.2;
+  margin: 0;
+
 
 }
 
@@ -31,5 +43,10 @@ h1 {
   font-weight: <weight>;
   font-style: normal;
   font-weight: 700;
+
+}
+
+.todo {
+  background-color: white;
 
 }
